@@ -1,4 +1,4 @@
-import React, { useState,Component  } from "react";
+import React, { useState,useEffect  } from "react";
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 import {ApplyIcon,Map,SearchImg1,SearchImg2,SearchImg3,SearchMap,Profs,Urban,Foodies,FeaturedClub,TrendingImg1,TrendingImg2,TrendingImg3,ClubEventsImg4,Deca2,Tamil2,Badminton2,Cass,HiringImg1,HiringImg2,dotImage,clubImage,eventsImg1,eventsImg2,eventsImg3,Badminton,Deca,Tamil,ClubEventsImg1,ClubEventsImg2,ClubEventsImg3,Location} from "../Imports/ImportImages";
@@ -9,9 +9,11 @@ import { Container,Row,Col } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
+import $ from "jquery";
+import SubscribeNow from "../Components/SubscribeNow";
 
 const Index = () => {
-
+  
   const settings = {
     infinite: false,
     speed: 500,
@@ -94,7 +96,7 @@ const Index = () => {
         {/* banner */}
         <section className="homepage-banner">
           <div className="banner-slider">
-            <Slider {...settings}>
+            <Slider className="mySlider" {...settings}>
               <div className="slider-content">
                 <Container>
                   <div className="slider-meta">
@@ -135,6 +137,10 @@ const Index = () => {
                 </Container>
               </div>
             </Slider>
+            <div class="progress1" role="progressbar1" aria-valuemin="0" aria-valuemax="100">
+            <span class="slider__label sr-only">  </span>
+          </div>
+
           </div>
         </section>
         {/* banner */}
@@ -1112,28 +1118,7 @@ const Index = () => {
 
         {/* Subscribe Now */}
 
-        <section className="subscribe-now">
-           <Container>
-               <div className="subscribe-content">
-                  <Row className="align-items-center">
-                    <Col lg={6}>
-                      <div className="text">
-                          <h2>Subscribe Now & Get News</h2>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  varius lacus vel elit accumsan, sollicitudin rhoncus quam scelerisque.</p>
-                      </div> 
-                    </Col>
-                    <Col lg={6}>
-                      <div className="subscribe">
-                        <input type="text" id="" placeholder="Your Email Address" name=""/>
-                        <a href="">
-                        Submit
-                        </a>
-                      </div> 
-                    </Col>
-                  </Row>
-               </div>
-           </Container>
-        </section>
+        <SubscribeNow/>
 
         {/* Subscribe Now */}
 

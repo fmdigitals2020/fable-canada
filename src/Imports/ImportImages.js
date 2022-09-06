@@ -1,5 +1,6 @@
 
 import Logo from '../assets/images/logo.svg';
+import BlackLogo from '../assets/images/fable-black.svg';
 import Search from '../assets/images/search.svg';
 import User from '../assets/images/user.svg';
 import HiringImg1 from '../assets/images/hiring-img1.png';
@@ -37,7 +38,27 @@ import Linkedin from '../assets/images/linkedin.svg';
 import Youtube from '../assets/images/youtube.svg';
 import Twitter from '../assets/images/twitter.svg';
 import Map from '../assets/images/map.png';
+import LoginImage from '../assets/images/login-image.png';
 import ApplyIcon from '../assets/images/apply-iconr.svg';
 import ToggleButton from '../assets/images/toggle-menu.svg';
+import Google from '../assets/images/google.svg';
+import Apple from '../assets/images/apple.svg';
+import LoginF from '../assets/images/login-f.svg';
+import LoginG from '../assets/images/login-g.svg';
+import LoginT from '../assets/images/login-t.svg';
+import LoginAdmin from '../assets/images/login-admin.svg';
+import LoginPw from '../assets/images/login-pw.svg';
+import LoginPwo from '../assets/images/login-pwo.svg';
+import LoginPhone from '../assets/images/login-phone.svg';
+import LoginEmail from '../assets/images/login-email.svg';
+import ClubGridImg1 from '../assets/images/club-gridimg1.png';
+import ClubGridImg2 from '../assets/images/club-gridimg2.png';
+import ClubGridImg3 from '../assets/images/club-gridimg3.png';
+import ClubGridImg4 from '../assets/images/club-gridimg4.png';
+import BreadcrumbRight from '../assets/images/arrow-right-breadcrumb.svg';
+import DuobleArrow1 from '../assets/images/double-arrl.svg';
+import DuobleArrow2 from '../assets/images/double-arrR.svg';
+import SearchBlack from '../assets/images/search-black.svg';
+import UserBlack from '../assets/images/user-black.svg';
 
-export {ToggleButton,ApplyIcon,Map,Facebook,Linkedin,Youtube,Twitter,SearchImg1,SearchImg2,SearchImg3,SearchMap,Profs,Foodies,Urban,FeaturedClub,TrendingImg1,TrendingImg2,TrendingImg3,Deca2,Tamil2,Badminton2,Cass,Logo,Search,User,HiringImg1,HiringImg2,clubImage,dotImage,eventsImg1,eventsImg2,eventsImg3,Deca,Tamil,Badminton,ClubEventsImg1,ClubEventsImg2,ClubEventsImg3,Location,ClubEventsImg4}
+export {UserBlack,SearchBlack,BlackLogo,DuobleArrow1,DuobleArrow2,BreadcrumbRight,ClubGridImg1,ClubGridImg2,ClubGridImg3,ClubGridImg4,LoginAdmin,LoginPw,LoginPwo,LoginPhone,LoginEmail,LoginF,LoginG,LoginT,Google,Apple,LoginImage,ToggleButton,ApplyIcon,Map,Facebook,Linkedin,Youtube,Twitter,SearchImg1,SearchImg2,SearchImg3,SearchMap,Profs,Foodies,Urban,FeaturedClub,TrendingImg1,TrendingImg2,TrendingImg3,Deca2,Tamil2,Badminton2,Cass,Logo,Search,User,HiringImg1,HiringImg2,clubImage,dotImage,eventsImg1,eventsImg2,eventsImg3,Deca,Tamil,Badminton,ClubEventsImg1,ClubEventsImg2,ClubEventsImg3,Location,ClubEventsImg4}
