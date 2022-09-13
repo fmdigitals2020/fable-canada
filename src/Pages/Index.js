@@ -13,16 +13,29 @@ import $ from "jquery";
 import SubscribeNow from "../Components/SubscribeNow";
 
 const Index = () => {
-  
+
+  // for Top to Bottom
+
+ useEffect(() => {
+  document.querySelector("#gototop").addEventListener("click", () => {
+    window.scrollTo(0,document.body.scrollHeight);
+  })
+ }, [])
+
+ // for Top to Bottom
+
   const settings = {
     infinite: false,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    autopaly : true,
+    dots : true,
+    arrows : true,
   };
 
   var mySettings = {
-    dots: true,
+    dots: false,
     infinite: false,
     speed: 500,
     slidesToShow: 3,
@@ -96,7 +109,7 @@ const Index = () => {
         {/* banner */}
         <section className="homepage-banner">
           <div className="banner-slider">
-            <Slider className="mySlider" {...settings}>
+            <Slider {...settings}>
               <div className="slider-content">
                 <Container>
                   <div className="slider-meta">
@@ -137,10 +150,9 @@ const Index = () => {
                 </Container>
               </div>
             </Slider>
-            <div class="progress1" role="progressbar1" aria-valuemin="0" aria-valuemax="100">
-            <span class="slider__label sr-only">  </span>
-          </div>
-
+            <div className="bottom-scroll" id="gototop">
+              <span></span>
+            </div>
           </div>
         </section>
         {/* banner */}
@@ -200,7 +212,7 @@ const Index = () => {
                   <h2 className="section-heading">Featured Events</h2>
                   <p className="section-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
-                <div className="events-slider">
+                <div className="events-slider custom-setting">
                 <Slider {...mySettings}>
                     <div className="events-box">
                       <div className="box">
@@ -367,7 +379,7 @@ const Index = () => {
                   <h2 className="section-heading">Latest Clubs With Events</h2>
                   <p className="section-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
-                <div className="events-slider">
+                <div className="events-slider custom-setting">
                 <Slider {...clubSlider}>
                     <div className="events-box">
                       <div className="box">
@@ -839,7 +851,7 @@ const Index = () => {
                     <h2 className="section-heading">Featured Clubs</h2>
                  </div>
                  <div className="featured-grid">
-                  <div className="featured-slider">
+                  <div className="featured-slider custom-setting">
                       <Slider {...settings}>
                           <div className="slide-box">
                             <Row>
@@ -1125,6 +1137,12 @@ const Index = () => {
         {/* Footer */}
 
         <Footer/>
+
+
+
+
+
+
    
       </div>
     )

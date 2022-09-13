@@ -11,15 +11,15 @@ import Pagination from '../Components/Pagination';
 function clublist() {
   return (
     <>
-        <Header HeaderInside className='headerinside'/>
+        <Header HeaderInside/>
         <section className='clublist'>
             <Container>
                 <div className='clublist-content'>
                     <div className='breadcrumb'>
-                        <a href=''> Home<img src={BreadcrumbRight}/> </a> <a href=''>Club List</a> 
+                        <a href=''> Home<img src={BreadcrumbRight}/> </a> <a href='' className='active'>Club List</a> 
                     </div>
                     <div className='title-name'>
-                        <h2>Club List</h2>
+                        <h2 className='title-big'>Club List</h2>
                     </div>
                     <div className='club-grid'>
                         <Row>

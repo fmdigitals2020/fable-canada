@@ -60,5 +60,19 @@ import DuobleArrow1 from '../assets/images/double-arrl.svg';
 import DuobleArrow2 from '../assets/images/double-arrR.svg';
 import SearchBlack from '../assets/images/search-black.svg';
 import UserBlack from '../assets/images/user-black.svg';
+import EventGrid1 from '../assets/images/event-grid1.png';
+import EventGrid2 from '../assets/images/event-grid2.png';
+import EventGrid3 from '../assets/images/event-grid3.png';
+import InsedeHToggle from '../assets/images/insideheadertoggle.svg';
+import viewProfile1 from '../assets/images/view-profile1.png';
+import clubProfile from '../assets/images/club-profile.png';
+import royalClub from '../assets/images/royal-club.svg';
+import royalClub2 from '../assets/images/royal-club2.svg';
+import signTick from '../assets/images/signtick.svg';
+import Disable from '../assets/images/disable-view.svg';
+import heartView from '../assets/images/heart-view.svg';
+import pinView from '../assets/images/pin-view.svg';
+import viewProfileMob from '../assets/images/view-profilemob.png';
+import clubProfileMob from '../assets/images/club-profilemob.png';
 
-export {UserBlack,SearchBlack,BlackLogo,DuobleArrow1,DuobleArrow2,BreadcrumbRight,ClubGridImg1,ClubGridImg2,ClubGridImg3,ClubGridImg4,LoginAdmin,LoginPw,LoginPwo,LoginPhone,LoginEmail,LoginF,LoginG,LoginT,Google,Apple,LoginImage,ToggleButton,ApplyIcon,Map,Facebook,Linkedin,Youtube,Twitter,SearchImg1,SearchImg2,SearchImg3,SearchMap,Profs,Foodies,Urban,FeaturedClub,TrendingImg1,TrendingImg2,TrendingImg3,Deca2,Tamil2,Badminton2,Cass,Logo,Search,User,HiringImg1,HiringImg2,clubImage,dotImage,eventsImg1,eventsImg2,eventsImg3,Deca,Tamil,Badminton,ClubEventsImg1,ClubEventsImg2,ClubEventsImg3,Location,ClubEventsImg4}
+export {clubProfileMob,royalClub2,clubProfile,viewProfileMob,Disable,heartView,pinView,signTick,royalClub,viewProfile1,InsedeHToggle,EventGrid1,EventGrid2,EventGrid3,UserBlack,SearchBlack,BlackLogo,DuobleArrow1,DuobleArrow2,BreadcrumbRight,ClubGridImg1,ClubGridImg2,ClubGridImg3,ClubGridImg4,LoginAdmin,LoginPw,LoginPwo,LoginPhone,LoginEmail,LoginF,LoginG,LoginT,Google,Apple,LoginImage,ToggleButton,ApplyIcon,Map,Facebook,Linkedin,Youtube,Twitter,SearchImg1,SearchImg2,SearchImg3,SearchMap,Profs,Foodies,Urban,FeaturedClub,TrendingImg1,TrendingImg2,TrendingImg3,Deca2,Tamil2,Badminton2,Cass,Logo,Search,User,HiringImg1,HiringImg2,clubImage,dotImage,eventsImg1,eventsImg2,eventsImg3,Deca,Tamil,Badminton,ClubEventsImg1,ClubEventsImg2,ClubEventsImg3,Location,ClubEventsImg4}

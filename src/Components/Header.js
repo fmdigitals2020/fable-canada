@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import {Logo,Search,User,ToggleButton, BlackLogo,SearchBlack, UserBlack} from "../Imports/ImportImages";
+import {Logo,Search,User,ToggleButton, BlackLogo,SearchBlack, UserBlack,InsedeHToggle} from "../Imports/ImportImages";
 import {Link} from 'react-router-dom'
 import {Container} from 'react-bootstrap';
 
@@ -17,7 +17,7 @@ const Header = (props) => {
               <div className="header-wrapper">
                 <div className='toggle-menu'>
                   <div className='toggle' onClick={() => setNavActive(!navActive)}>
-                    <img src={ToggleButton}/>
+                    <img src={InsedeHToggle}/>
                   </div>
                 </div>
                 <div className='logo'>
