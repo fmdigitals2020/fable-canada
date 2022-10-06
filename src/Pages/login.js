@@ -29,8 +29,8 @@ function login() {
                 <h3>Log In to FABLE</h3>
                 <p>Welcome back! login with your data</p>
                 <div className='actions'>
-                    <a href=''><img src={Google}/> Sign In with Google</a>
-                    <a href=''><img src={Apple}/>Sign In with Apple</a>
+                    <a href=''>For Students</a>
+                    <a href=''>For Clubs</a>
                 </div>
                 <div className='option'>
                     or with email

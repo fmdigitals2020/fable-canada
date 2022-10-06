@@ -6,6 +6,7 @@ import Clublist from "./Pages/clublist";
 import EventList from "./Pages/EventList";
 import Profile from "./Pages/profile";
 import ClubProfile from "./Pages/clubProfile";
+import EventDetail from "./Pages/eventDetail";
 import {Routes,Route} from 'react-router-dom'
 
 
@@ -19,6 +20,7 @@ function App() {
       <Route path='/EventList' element={<EventList/>} />
       <Route path='/profile' element={<Profile/>}/>
       <Route path='/club' element={<ClubProfile/>}/>
+      <Route path='/eventdetail' element={<EventDetail/>}/>
     </Routes>
      );
 }

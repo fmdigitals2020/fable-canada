@@ -1137,7 +1137,8 @@ const Index = () => {
         {/* Footer */}
 
         <Footer/>
-
+        
+        {/* Footer */}
 
 
 

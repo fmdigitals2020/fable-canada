@@ -15,7 +15,7 @@ function clublist() {
         <section className='clublist'>
             <Container>
                 <div className='clublist-content'>
-                    <div className='breadcrumb'>
+                    <div className='breadcrumb pt-3'>
                         <a href=''> Home<img src={BreadcrumbRight}/> </a> <a href='' className='active'>Club List</a> 
                     </div>
                     <div className='title-name'>
@@ -142,6 +142,24 @@ function clublist() {
                                         </Accordion.Body>
                                     </Accordion.Item>
                                 </Accordion>
+                                <div className='selectbox'>
+                                <Form.Select>
+                                    <option>Academtics</option>
+                                    <option>Academtics</option>
+                                    <option>Academtics</option>
+                                    <option>Academtics</option>
+                                    <option>Academtics</option>
+                                </Form.Select>
+                                <div className='list'>
+                                    <div className='flexarea-button'>
+                                        <button>Humaanities</button>
+                                        <button>Performing arts</button>
+                                        <button>Visual arts</button>
+                                        <button>Philosophy</button>
+                                        <button>Theology</button>
+                                    </div>
+                                </div>
+                                </div>
                               </div>
                             </Col>
                             <Col lg={9}>

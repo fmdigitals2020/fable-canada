@@ -1560,6 +1560,7 @@ input.is-valid, .was-validated input:valid ~ img{
 
 .clublist{
     padding-bottom: 300px;
+    background-color: #f9f9f9;
 }
 
 .breadcrumb a{
@@ -2041,7 +2042,7 @@ input.is-valid, .was-validated input:valid ~ img{
 
 .profile-area .meta .common-styles{
     padding: 24px;
-    background-color: #F9F9F9;
+    background-color: var(--light);
     text-align: center;
     border-radius: 15px;
     margin-right: 22px;
@@ -2159,7 +2160,7 @@ input.is-valid, .was-validated input:valid ~ img{
 .profile-area .react-tabs__tab-list{
     display: inline-flex;
     list-style: none;
-    background: #F9F9F9;
+    background: var(--light);
     border-radius: 15px;
     padding: 7px;
     cursor: pointer;
@@ -2270,6 +2271,285 @@ input.is-valid, .was-validated input:valid ~ img{
     display: block;
 }
 
+/* Club Profile Area */
+
+/* Event Detail */
+
+.eventdetail .flexarea .picture-con h4{
+    color: var(--dark2);
+    font-size: var(--large1);
+    font-weight: var(--Bold);
+}
+
+.eventdetail .flexarea{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: -130px; 
+    border-bottom: 5px solid #F3F3F3;
+    padding-bottom: 32px;
+}
+
+.eventdetail .flexarea .picture-con {
+    display: flex;
+    align-items: flex-end;
+}
+
+.eventdetail .flexarea .picture-con h4 span,
+.eventdetail .flexarea .picture-con h5,
+.eventdetail .flexarea .picture-con h5 span{
+    color: #525252;
+    font-size: var(--smallFont);
+    font-weight: var(--medium);
+}
+
+.eventdetail .flexarea .picture-con img{
+    margin-right: 25px;
+}
+
+.eventdetail .flexarea .picture-con h5 span{
+    color: #D85757;
+}
+
+.eventdetail .flexarea button{
+    padding: 14px 17px;
+    font-size: var(--smallFont);
+    font-weight: var(--SemiBold);
+    color: var(--white);
+    border-radius: 10px;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    outline: none;
+}
+
+.eventdetail .flexarea button img{
+    margin-right: 4px;
+}
+
+.eventdetail .flexarea button:nth-child(1){
+    background-color: #F85454;
+    margin-right: 13px;
+}
+
+.eventdetail .flexarea button:nth-child(2){
+    background-color: var(--black);
+}
+
+.eventdetail .top-area{
+    padding: 0 150px;
+}
+
+.eventdetail .top-area h3{
+    font-size: 45px;
+    font-weight: var(--SemiBold);
+    color: var(--black);
+    margin-bottom: 21px;
+    margin-top: 34px;
+}
+
+.eventdetail .content .dates-info span{
+    display: inline-block;
+    padding: 10px 16px;
+    margin-right: 23px;
+    color: var(--black);
+    background: rgba(194, 194, 194, 0.18);
+    backdrop-filter: blur(25px);
+    font-size: 14px;
+    font-weight: var(--Regular);
+    border-radius: 60px;
+}
+
+.eventdetail .top-area p{
+    font-size: var(--XsmallFont);
+    font-weight: var(--Regular);
+    line-height: 35px;
+    margin-top: 20px;
+    color: var(--dark);
+}
+
+.eventdetail .box-info .actions a{
+    padding: 19px 40px;
+    border: 1px solid #000000;
+    border-radius: 12px;
+    letter-spacing: 0.05em;
+    font-weight: var(--SemiBold);
+    font-size: var(--XsmallFont);
+    color: var(--black);
+    transition: 0.3s ease-in-out;
+} 
+
+.eventdetail .box-info .actions a:hover{
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.eventdetail .eventdetail-grid {
+    margin-top: 90px;
+}
+
+.eventdetail .box-info p{
+    padding-right: 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.events-gallery{
+    background: var(--light);
+    padding: 93px 0 95px 0px;
+    position: relative;
+    margin-top: 130px;
+}
+
+.eventgallery-grid .custom-setting .slick-prev,.eventgallery-grid .custom-setting .slick-next{
+    bottom: -80px !important;
+    top: auto !important;
+    transform: translateY(0) !important;
+    z-index: 1;
+}
+
+.eventgallery-grid .row{
+    margin-top: 40px;
+}
+
+.eventgallery-grid .custom-setting .slick-dots li{
+    height: 13px;
+    width: 45px;
+}
+
+.eventgallery-grid .slick-dots{
+    bottom: -70px;
+    text-align: left;
+}
+
+.eventgallery-grid .slick-dots li button:before{
+    height: 100%;
+    opacity: 1 !important;
+    width: 100%;
+    font-family: none;
+    background: #D9D9D9;
+}
+
+.slick-dots li.slick-active button:before{
+    opacity: 1;
+    background-color: #000000;
+}
+
+.eventdetail-main .eventpicture{
+    width: 100vw;
+    margin-left: calc((100% - 100vw) / 2);
+}
+
+/* Faq */
+
+.faq{
+    padding: 0 150px;
+    margin-top: 100px;
+}
+
+.faq h3{
+    font-size: 45px;
+    font-weight: var(--SemiBold);
+    color: var(--black);
+    padding-bottom: 28px;
+}
+
+.faq ul{
+    padding-left: 0;
+}
+
+.faq li{
+    font-size: var(--XsmallFont);
+    line-height: 35px;
+    list-style: none;
+    color: var(--dark);
+}
+
+.faq span::before{
+    width: 7px;
+    height: 10px;
+    display: inline-block;
+    content: "";
+    background: #313131;
+    box-shadow: 0px 3px 25px rgba(210, 214, 216, 0.14);
+    border-radius: 60px;
+}
+
+.faq span{
+    border: 1px solid #313131;
+    box-shadow: 0px 3px 30px rgba(190, 196, 199, 0.18);
+    border-radius: 60px;
+    width: 16px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 22px;
+    margin-right: 10px;
+}
+
+
+/* Faq */
+
+/* Other events */
+
+.others-events{
+    background-color: var(--light);
+    margin-top: 50px;
+    padding-top: 94px;
+    padding-bottom: 240px;
+}
+
+.others-events .slick-dots{
+    display: none !important;
+}
+
+.others-events h3{
+    color: var(--black);
+    font-size: 35px;
+    font-weight: var(--Bold);
+}
+
+.others-events .info h4,.others-events .info h4 span{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.9);
+    font-weight: var(--SemiBold);
+}
+
+.others-events .info{
+    padding-top: 18px;
+}
+
+.others-events .info h4 span{
+    font-weight: var(--medium);
+    display: block;
+    padding-top: 10px;
+}
+
+.others-events .event-box{
+    background-color: var(--white);
+    border: none;
+}
+
+.others-events .info .followers{
+    color: rgba(86, 86, 86, 0.9);
+}
+
+.others-events .event-box{
+    margin-right: 15px;
+}
+
+/* .slick-slider{
+    display: flex !important;
+} */
+
+/* Event Detail */
+
+
+
+
+
+
+
 /* Media Queries */
 
 @media(max-width:1350px){
@@ -2326,6 +2606,34 @@ input.is-valid, .was-validated input:valid ~ img{
 
     .event-banner .event-bannerContent .events-categories{
         margin-top: 0;
+    }
+
+    .eventdetail .top-area{
+        padding: 0;
+        position: relative;
+    }
+
+    .eventdetail .flexarea{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: -55px;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .eventdetail .flexarea .picture-con{
+        flex-direction: column;
+        align-items: flex-start ;
+    }
+
+    .eventdetail .flexarea .actions{
+        position: absolute;
+        right: 0;
+        display: flex;
+    }
+
+    .eventdetail .box-info p{
+        padding-right: 0;
     }
 }
 
@@ -2420,6 +2728,102 @@ input.is-valid, .was-validated input:valid ~ img{
 
     footer .footer-box li a{
         font-size: var(--XsmallFont);
+    }
+
+    .faq{
+        padding: 0;
+    }
+
+    .eventgallery-grid .events-galleryBox img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    
+    .clublist .club-grid .accordion{
+        display: none;
+    }
+
+    .clublist .club-grid .categories-accordion{
+        background-color: transparent;
+        padding: 0;
+        box-shadow: none;
+        padding-top: 30px;
+    }
+
+    .clublist .club-grid .categories-accordion button{
+        padding: 10px 12px;
+        background: var(--white);
+        box-shadow: 0px 4px 40px rgba(190, 196, 205, 0.4);
+        border-radius: 60px;
+        color: #545454;
+        font-size: 14px;
+        border: none;
+        margin-right: 18px;
+        margin-top: 22px;
+        min-width: 120px;
+    }
+
+    .clublist .club-grid .categories-accordion button:focus{
+        background-color: var(--black);
+        color: var(--white);
+        font-weight: var(--medium);
+    }
+
+    .clublist .club-grid .categories-accordion .flexarea-button{
+        display: flex;
+        width: 100vw;
+        overflow-x: scroll;
+    }
+
+    .clublist .club-list .search-sort{
+        display: none;
+    }
+
+    .clublist .categories-accordion h3{
+        font-size: 17px;
+    }
+
+    .clublist .club-list{
+        padding-left: 0;
+    }
+
+    .clublist{
+        padding-bottom: 50px;
+    }
+
+    .clublist .club-grid .item-box{
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .clublist .item-box .picture img{
+        width: 100%;
+    }
+
+    .clublist .club-grid .info{
+        padding-left: 0;
+        padding-top: 20px;
+    }
+
+    .clublist .item-box .picture a{
+        padding: 10px 20px;
+        font-size: 15px;
+        top: 12px;
+        right: 12px;
+    }
+
+    .clublist .club-grid .info h3{
+        font-size: var(--smallFont);
+    }
+
+    .clublist .club-grid .info p,.clublist .club-grid .info button{
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .clublist .club-grid{
+        margin-top: 0;
     }
 
     
@@ -2639,6 +3043,9 @@ input.is-valid, .was-validated input:valid ~ img{
         margin-bottom: 20px;
     }
 
+    .eventdetail .flexarea .picture-con img{
+        width: 104px;
+    }
    
 
 }
@@ -3393,6 +3800,166 @@ input.is-valid, .was-validated input:valid ~ img{
 
     .homepage-banner .bottom-scroll{
         display: none;
+    }
+
+    .eventdetail .flexarea .picture-con .title{
+        margin-top: 23px;
+    }
+
+    .eventdetail .flexarea button {
+        font-size: 15px;
+        padding: 10px 13px;
+    }
+
+    .eventdetail .flexarea .picture-con h4{
+        font-size: var(--smallFont);
+    }
+
+    .eventdetail .flexarea .picture-con h4 span, .eventdetail .flexarea .picture-con h5, .eventdetail .flexarea .picture-con h5 span{
+        font-size: 16px;
+    }
+
+    .eventdetail .top-area h3{
+        font-size: var(--smallFont);
+        line-height: 26px;
+        margin-top: 18px;
+        margin-bottom: 14px;
+    }
+
+    .eventdetail .content .dates-info span{
+        padding: 8px 19px;
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+
+    .eventdetail .top-area p{
+        font-size: 12px;
+        line-height: 22px;
+        margin-top: 8px;
+    }
+
+    .eventdetail .eventdetail-grid .row{
+        flex-direction: column-reverse;
+    }
+
+    .eventdetail .eventdetail-grid .row img{
+        height: 200px;
+        width: 100%;
+        border-radius: 16px;
+        object-fit: cover;
+    }
+
+    .eventdetail .eventdetail-grid{
+        position: relative;
+    }
+
+    .eventdetail .eventdetail-grid h3{
+        position: absolute;
+        top: -90px;
+    }
+
+    .eventdetail .box-info p{
+        padding-right: 0;
+        margin-top: 12px;
+        margin-bottom: 20px;
+    }
+
+    .eventdetail .box-info .actions{
+        text-align: center;
+    }
+
+    .eventdetail .box-info .actions a{
+        padding: 12px 25px;
+        font-size: 16px;
+    }
+
+    .events-gallery{
+        margin-top: 30px;
+        padding: 23px 0;
+    }
+
+    .events-gallery .section-paragraph{
+        width: 100%;
+    }
+
+    .faq span{
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+    }
+
+    .faq span::before{
+        height: 8px;
+        width: 8px;
+        border-radius: 50%;
+    }
+
+    .faq li{
+        font-size: 12px;
+        line-height: 22px;
+        margin-bottom: 12px;
+    }
+
+    .faq h3{
+        font-size: var(--smallFont);
+        padding-bottom: 8px;
+    }
+
+    .others-events{
+        margin-top: 30px;
+        padding-top: 20px;
+        padding-bottom: 200px;
+    }
+
+    .others-events h3{
+        font-size: var(--smallFont);
+        margin-bottom: 0;
+    }
+
+    .others-events .event-box{
+        margin-right: 15px;
+        width: 220px;
+    }
+
+    .eventgallery-grid .custom-setting .slick-dots li{
+        height: 9px;
+    }
+
+    .others-events .info h4, .others-events .info h4 span{
+        font-size: 13px;
+    }
+
+    .others-eventsSlider{
+        display: flex;
+    }
+
+    .clublist .item-box .picture img{
+        height: 150px;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+
+    .clublist .club-grid .info h3{
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    .clublist .club-grid .info p{
+        line-height: 20px;
+        margin-top: 6px;
+    }
+
+    .clublist .club-grid .info p, .clublist .club-grid .info button{
+        font-size: 12px;
+    }
+
+    .clublist .club-grid .info button{
+        margin-bottom: 12px;
+        padding: 6px 12px;
+    }
+
+    .clublist .club-grid .info{
+        padding-top: 12px;
     }
 
     /* .banner-slider .slick-dots li button:before{

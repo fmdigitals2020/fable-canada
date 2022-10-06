@@ -74,5 +74,18 @@ import heartView from '../assets/images/heart-view.svg';
 import pinView from '../assets/images/pin-view.svg';
 import viewProfileMob from '../assets/images/view-profilemob.png';
 import clubProfileMob from '../assets/images/club-profilemob.png';
+import EventDetailImg from '../assets/images/eventdetail.png';
+import EventDetailImgS from '../assets/images/eventdetail-sm.png';
+import EventDetailSm from '../assets/images/eventdetailsm.svg';
+import HeartBtn from '../assets/images/heart-button.svg';
+import EventDetailGrid from '../assets/images/eventdetailgrid.png';
+import EventsGSm1 from '../assets/images/events-gallerysm1.png';
+import EventsGSm2 from '../assets/images/events-gallerysm2.png';
+import EventsGSm3 from '../assets/images/events-gallerysm3.png';
+import EventsGSm4 from '../assets/images/events-gallerysm4.png';
+import EventsGBig from '../assets/images/events-gallerybig.png';
+import Daytime1 from '../assets/images/daytime.png';
+import Daytime2 from '../assets/images/daytime2.png';
+import Daytime3 from '../assets/images/daytime3.png';
 
-export {clubProfileMob,royalClub2,clubProfile,viewProfileMob,Disable,heartView,pinView,signTick,royalClub,viewProfile1,InsedeHToggle,EventGrid1,EventGrid2,EventGrid3,UserBlack,SearchBlack,BlackLogo,DuobleArrow1,DuobleArrow2,BreadcrumbRight,ClubGridImg1,ClubGridImg2,ClubGridImg3,ClubGridImg4,LoginAdmin,LoginPw,LoginPwo,LoginPhone,LoginEmail,LoginF,LoginG,LoginT,Google,Apple,LoginImage,ToggleButton,ApplyIcon,Map,Facebook,Linkedin,Youtube,Twitter,SearchImg1,SearchImg2,SearchImg3,SearchMap,Profs,Foodies,Urban,FeaturedClub,TrendingImg1,TrendingImg2,TrendingImg3,Deca2,Tamil2,Badminton2,Cass,Logo,Search,User,HiringImg1,HiringImg2,clubImage,dotImage,eventsImg1,eventsImg2,eventsImg3,Deca,Tamil,Badminton,ClubEventsImg1,ClubEventsImg2,ClubEventsImg3,Location,ClubEventsImg4}
+export {EventDetailImgS,Daytime1,Daytime2,Daytime3,EventsGBig,EventsGSm1,EventsGSm2,EventsGSm3,EventsGSm4,EventDetailGrid,HeartBtn,EventDetailSm,EventDetailImg,clubProfileMob,royalClub2,clubProfile,viewProfileMob,Disable,heartView,pinView,signTick,royalClub,viewProfile1,InsedeHToggle,EventGrid1,EventGrid2,EventGrid3,UserBlack,SearchBlack,BlackLogo,DuobleArrow1,DuobleArrow2,BreadcrumbRight,ClubGridImg1,ClubGridImg2,ClubGridImg3,ClubGridImg4,LoginAdmin,LoginPw,LoginPwo,LoginPhone,LoginEmail,LoginF,LoginG,LoginT,Google,Apple,LoginImage,ToggleButton,ApplyIcon,Map,Facebook,Linkedin,Youtube,Twitter,SearchImg1,SearchImg2,SearchImg3,SearchMap,Profs,Foodies,Urban,FeaturedClub,TrendingImg1,TrendingImg2,TrendingImg3,Deca2,Tamil2,Badminton2,Cass,Logo,Search,User,HiringImg1,HiringImg2,clubImage,dotImage,eventsImg1,eventsImg2,eventsImg3,Deca,Tamil,Badminton,ClubEventsImg1,ClubEventsImg2,ClubEventsImg3,Location,ClubEventsImg4}
