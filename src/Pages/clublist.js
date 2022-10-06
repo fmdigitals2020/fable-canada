@@ -142,7 +142,7 @@ function clublist() {
                                         </Accordion.Body>
                                     </Accordion.Item>
                                 </Accordion>
-                                <div className='selectbox'>
+                                <div className='selectbox d-lg-none d-block'>
                                 <Form.Select>
                                     <option>Academtics</option>
                                     <option>Academtics</option>
