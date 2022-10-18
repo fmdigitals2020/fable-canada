@@ -31,6 +31,10 @@
    /* WEIGHTS */
 }
 
+body{
+    overflow-x: hidden;
+}
+
 /* Container */
 
 .container{
@@ -568,6 +572,16 @@ header .toggle-menu .toggle{
 .events .events-slider .events-box:nth-child(n+1){
     padding-right: 30px;
 }
+
+/* .slick-initialized .slick-slide{
+    min-width: 31% !important;
+}
+.slick-track{
+    width: 100% !important;
+    display: flex !important;
+    justify-content: space-between !important;
+
+} */
 
 .events .events-box .box{
     background: var(--white);
@@ -1252,6 +1266,10 @@ footer .footer-bottom p{
 
 /* Login Start */
 
+.login-page{
+    height: 100vh;
+    overflow: hidden;
+}
 
 .login-box::before,.login-box::after,.login-image::before,.login-image::after{
     content: "";
@@ -1297,9 +1315,12 @@ footer .footer-bottom p{
 
 .login-page .login-box{
     background-color: var(--dark2);
-    padding: 133px 100px;
+    padding: 0px 100px;
     height: 100%;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .login-page .login-box .logo{
@@ -1332,8 +1353,13 @@ footer .footer-bottom p{
     opacity: 0.8;
 }
 
+.login-page .login-content,
+.login-page .login-content .row{
+    height: 100%;
+}
+
 .login-page .login-info{
-    padding: 120px 150px 30px 150px;
+    padding: 0 140px;
 }
 
 .login-page .login-info .form-group img{
@@ -1363,17 +1389,32 @@ footer .footer-bottom p{
 }
 
 .login-page .login-info .actions a{
-    padding: 17px 30px;
+    padding: 14px 35px;
     font-size: var(--XsmallFont);
     font-weight: var(--Regular);
     color: #464545;
     background: var(--white);
     border: 1px solid #D0D0D0;
     border-radius: 12px;
+    transition: 0.3s ease-in-out;
+}
+
+.login-page .login-info .actions a:focus,
+.login-page .login-info .actions a:hover{
+    background-color: var(--black);
+    color: var(--white);
+    font-weight: var(--SemiBold);
 }
 
 .login-page .login-info .actions a:nth-child(1){
-    margin-right: 20px;
+    border-right: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.login-page .login-info .actions a:nth-child(2){
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
 
 .login-page .login-info a img{
@@ -1884,6 +1925,7 @@ input.is-valid, .was-validated input:valid ~ img{
     border-radius: 60px;
     outline: none;
     text-indent: 32px;
+    border: none;
 }
 
 .event-banner .event-bannerContent .search-event{
@@ -2774,6 +2816,7 @@ input.is-valid, .was-validated input:valid ~ img{
         display: flex;
         width: 100vw;
         overflow-x: scroll;
+        margin-bottom: 25px;
     }
 
     .clublist .club-list .search-sort{
@@ -2824,6 +2867,10 @@ input.is-valid, .was-validated input:valid ~ img{
 
     .clublist .club-grid{
         margin-top: 0;
+    }
+
+    .login-page{
+        height: auto;
     }
 
     
@@ -3473,9 +3520,9 @@ input.is-valid, .was-validated input:valid ~ img{
         text-align: left;
     }
 
-    .login-page .login-info .actions{
+    /* .login-page .login-info .actions{
         display: none;
-    }
+    } */
 
     .login-page .login-info .form-group{
         margin-top: 25px;
