@@ -569,8 +569,17 @@ header .toggle-menu .toggle{
     margin-top: 50px;
 }
 
-.events .events-slider .events-box:nth-child(n+1){
-    padding-right: 30px;
+.events .events-slider .slick-track{
+    display: flex;
+}
+
+
+.events .events-slider .slick-slide{
+    flex: 1;
+}
+
+.events .events-slider .slick-slide:nth-child(n+2){
+    padding-left: 30px;
 }
 
 /* .slick-initialized .slick-slide{
@@ -590,6 +599,12 @@ header .toggle-menu .toggle{
     transition: 0.5s ease-in-out;
     cursor: pointer;
     border: 2px solid transparent;
+    margin: 20px 0;
+    transition: 0.3s ease-in-out;
+}
+
+.club-events .events-box .box:hover{
+    border: 2px solid rgba(192, 195, 213, 0.46) !important;
 }
 
 .events .events-box .box:hover{
@@ -664,6 +679,10 @@ header .toggle-menu .toggle{
 
 .club-events .events-slider{
     margin-top: 90px;
+}
+
+.club-events .events-slider .slick-prev,.club-events .events-slider .slick-next{
+    top: -25% !important;
 }
 
 .club-events .flex-area .picture-title{
@@ -791,6 +810,12 @@ header .toggle-menu .toggle{
     display: inline-block;
     margin-right: 10px;
     cursor: pointer;
+    transition: 0.3s linear;
+}
+
+.trending-clubs .trending-grid .tab:hover{
+    background-color: var(--black);
+    color: var(--white);
 }
 
 .react-tabs__tab-list{
@@ -1812,8 +1837,15 @@ input.is-valid, .was-validated input:valid ~ img{
     border-radius: 12px;
     padding: 15px 33px;
     position: absolute;
+    border: 1px solid transparent;
     top: 22px;
+    transition: 0.3s ease-in-out;
     right: 22px;
+}
+
+.clublist .item-box .picture a:hover{
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    background-color: transparent;
 }
 
 .clublist .club-list{
@@ -1844,6 +1876,7 @@ input.is-valid, .was-validated input:valid ~ img{
 .clublist .club-grid .info button{
     padding: 14px 18px;
     background-color: transparent;
+    transition: 0.3s ease-in-out;
     background: #FCFCFC;
     border: 1px solid #ECEBEB;
     border-radius: 10px;
@@ -1851,6 +1884,13 @@ input.is-valid, .was-validated input:valid ~ img{
     font-weight: var(--medium);
     color: #464545;
 } 
+
+.clublist .club-grid .info button:hover,
+.clublist .club-grid .info button:focus{
+    background-color: var(--black);
+    border: 1px solid var(--white);
+    color: var(--white);
+}
 
 .clublist .accordion-button::after{
     width: 15px;
@@ -1993,6 +2033,11 @@ input.is-valid, .was-validated input:valid ~ img{
     padding: 13px;
     padding-bottom: 33px;
     margin-bottom: 35px;
+    transition: 0.3s ease-in-out;
+}
+
+.event-grid .event-box:hover{
+    border: 2px solid var(--black);
 }
 
 .event-box h3{
@@ -2160,6 +2205,7 @@ input.is-valid, .was-validated input:valid ~ img{
     padding: 20px;
     font-size: 16px;
     margin-top: 45px;
+    margin-bottom: 30px;
 }
 
 .profile-area .email-area .email-box .flex-area{
@@ -2727,7 +2773,7 @@ input.is-valid, .was-validated input:valid ~ img{
     }
 
     .featured-clubs .col-lg-6:nth-child(2){
-        padding-left: 10px;
+        padding-left: 15px;
     }
 
     .featured-clubs .info-area:nth-child(n+2){
@@ -2804,6 +2850,7 @@ input.is-valid, .was-validated input:valid ~ img{
         margin-right: 18px;
         margin-top: 22px;
         min-width: 120px;
+        margin-bottom: 20px;
     }
 
     .clublist .club-grid .categories-accordion button:focus{
@@ -2819,7 +2866,10 @@ input.is-valid, .was-validated input:valid ~ img{
         margin-bottom: 25px;
     }
 
-    .clublist .club-list .search-sort{
+    .clublist .club-list .search-sort,
+    .clublist .club-grid .categories-accordion .flexarea-button::-webkit-scrollbar{
+        display: none;
+    }{
         display: none;
     }
 
@@ -3145,6 +3195,15 @@ input.is-valid, .was-validated input:valid ~ img{
         font-size: 16px;
     }
 
+    .events .events-slider .slick-slide:nth-child(n+1){
+        padding-right: 18px;
+        padding-left: 0;
+    }
+
+    .events .events-slider .slick-slide{
+        flex: none !important;
+    }
+
     .events-slider .slick-slide{
         width: 300px !important;
     }
@@ -3229,7 +3288,7 @@ input.is-valid, .was-validated input:valid ~ img{
     }
 
     .events .events-slider{
-        display: flex;
+        min-width: 100vw;
         margin-top: 22px;
     }
 
@@ -3768,7 +3827,7 @@ input.is-valid, .was-validated input:valid ~ img{
     .club-areaa .create-event{
         position: absolute;
         top: 14px;
-        right: 0;
+        right: 20px;
     }
 
     .club-areaa .create-event button{

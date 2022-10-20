@@ -39,6 +39,7 @@ const Index = () => {
     infinite: false,
     speed: 500,
     slidesToShow: 3,
+    swipeToSlide : true,
     slidesToScroll: 1,
     responsive: [
       {
@@ -62,6 +63,7 @@ const Index = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          swipeToSlide : true,
           variableWidth: true,
         }
       }
@@ -71,6 +73,7 @@ const Index = () => {
   var clubSlider = {
     infinite: false,
     slidesToShow: 4,
+    swipeToSlide : true,
     slidesToScroll: 1,
     responsive: [
       {

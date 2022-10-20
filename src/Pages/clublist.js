@@ -48,20 +48,20 @@ function clublist() {
                                                 <label for='radio4'>Languages and literature</label>
                                             </li>
                                             <li>
-                                                <input type='radio' name='type'/>
-                                                <label>Law</label>
-                                            </li>
-                                            <li>
-                                                <input type='radio' name='type' id='radio5'/>
-                                                <label for='radio5'>Philosophy</label>
+                                                <input type='radio' name='type' id="radio5"/>
+                                                <label for="radio5">Law</label>
                                             </li>
                                             <li>
                                                 <input type='radio' name='type' id='radio6'/>
-                                                <label for='radio6'>Theology</label>
+                                                <label for='radio6'>Philosophy</label>
                                             </li>
                                             <li>
                                                 <input type='radio' name='type' id='radio7'/>
-                                                <label for='radio7'>Social Sciences</label>
+                                                <label for='radio7'>Theology</label>
+                                            </li>
+                                            <li>
+                                                <input type='radio' name='type' id='radio8'/>
+                                                <label for='radio8'>Social Sciences</label>
                                             </li>
                                          </ul>
                                         </Accordion.Body>
@@ -71,12 +71,12 @@ function clublist() {
                                         <Accordion.Body>
                                          <ul>
                                             <li>
-                                                <input type='radio'/>
-                                                <label>Humaanities</label>
+                                                <input type='radio' id='radio9'/>
+                                                <label for='radio9'>Humaanities</label>
                                             </li>
                                             <li>
-                                                <input type='radio'/>
-                                                <label>Performing arts</label>
+                                                <input type='radio' id='radio10'/>
+                                                <label for='radio10'>Performing arts</label>
                                             </li>
                                          </ul>
                                         </Accordion.Body>
@@ -86,12 +86,12 @@ function clublist() {
                                         <Accordion.Body>
                                          <ul>
                                             <li>
-                                                <input type='radio'/>
-                                                <label>Humaanities</label>
+                                                <input type='radio' id='radio11'/>
+                                                <label for='radio11'>Humaanities</label>
                                             </li>
                                             <li>
-                                                <input type='radio'/>
-                                                <label>Performing arts</label>
+                                                <input type='radio' id='radio12'/>
+                                                <label for='radio12'>Performing arts</label>
                                             </li>
                                          </ul>
                                         </Accordion.Body>
@@ -101,12 +101,12 @@ function clublist() {
                                         <Accordion.Body>
                                          <ul>
                                             <li>
-                                                <input type='radio'/>
-                                                <label>Humaanities</label>
+                                                <input type='radio' id='radio13'/>
+                                                <label for='radio13'>Humaanities</label>
                                             </li>
                                             <li>
-                                                <input type='radio'/>
-                                                <label>Performing arts</label>
+                                                <input type='radio' id='radio14'/>
+                                                <label for='radio14'>Performing arts</label>
                                             </li>
                                          </ul>
                                         </Accordion.Body>
@@ -116,12 +116,12 @@ function clublist() {
                                         <Accordion.Body>
                                          <ul>
                                             <li>
-                                                <input type='radio'/>
-                                                <label>Humaanities</label>
+                                                <input type='radio' id='radio15'/>
+                                                <label for='radio15'>Humaanities</label>
                                             </li>
                                             <li>
-                                                <input type='radio'/>
-                                                <label>Performing arts</label>
+                                                <input type='radio' id='radio16'/>
+                                                <label for='radio16'>Performing arts</label>
                                             </li>
                                          </ul>
                                         </Accordion.Body>
@@ -130,13 +130,13 @@ function clublist() {
                                         <Accordion.Header>Environment and Sust..</Accordion.Header>
                                         <Accordion.Body>
                                          <ul>
-                                            <li>
-                                                <input type='radio'/>
-                                                <label>Humaanities</label>
+                                         <li>
+                                                <input type='radio' id='radio17'/>
+                                                <label for='radio17'>Humaanities</label>
                                             </li>
                                             <li>
-                                                <input type='radio'/>
-                                                <label>Performing arts</label>
+                                                <input type='radio' id='radio18'/>
+                                                <label for='radio18'>Performing arts</label>
                                             </li>
                                          </ul>
                                         </Accordion.Body>
